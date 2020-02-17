@@ -1,3 +1,3 @@
-# Volvo-DataX
+# Pedestrian and bicyclist intention monitoring and prediction
 
-UC Berkeley team working on Pedestrian Intention Recognition (PIR)
+Collaborative research between Volvo Cars, UC Berkeley, and Chalmers University.
