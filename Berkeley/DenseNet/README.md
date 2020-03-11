@@ -38,4 +38,10 @@ Order of performance:
 
 Other resources:
 
+Code Matthew ran
 https://github.com/gudongfeng/3d-DenseNet
+
+Example of simple 3D convnet
+https://www.machinecurve.com/index.php/2019/10/18/a-simple-conv3d-example-with-keras/#todays-dataset-3d-mnist
+
+
