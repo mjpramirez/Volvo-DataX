@@ -1,6 +1,6 @@
 # YoloV3 Implemented in TensorFlow 2.0
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mjpramirez/Volvo-DataX/blob/master/Berkeley/yolov3-tf2/colab_gpu.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)(https://github.com/mjpramirez/Volvo-DataX/blob/master/Berkeley/yolov3-tf2/Training%20and%20Inference.ipynb)
 
 This repo provides a clean implementation of YoloV3 in TensorFlow 2.0 using all the best practices.
 
