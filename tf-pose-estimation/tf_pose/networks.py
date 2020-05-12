@@ -142,7 +142,7 @@ def get_graph_path(model_name):
         'mobilenet_v2_large_quantize': 'graph/mobilenet_v2_large/graph_opt_q.pb',
         'mobilenet_v2_small': 'graph/mobilenet_v2_small/graph_opt.pb',
         'egen': 'graph/egen/frozen_graph_2.pb',
-        'egen_jaad_1_5': 'graph/egen_jaad_1_5/graph_opt.pb',
+        'egen_jaad_1_5': 'graph_opt.pb',
     }
 
     base_data_dir = dirname(dirname(abspath(__file__)))
@@ -151,7 +151,7 @@ def get_graph_path(model_name):
     else:
         base_data_dir = os.path.join(base_data_dir, 'tf_pose_data')
 
-    graph_path = os.path.join('/content/drive/My Drive/DataX/yolov3-tf2/tf-pose-estimation/models/', dyn_graph_path[model_name])
+    graph_path = os.path.join('/content/drive/My Drive/datax_volvo_additional_files/', dyn_graph_path[model_name])
     if os.path.isfile(graph_path):
         return graph_path
 
