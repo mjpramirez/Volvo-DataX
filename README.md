@@ -46,7 +46,7 @@ Model A uses the following components:
 2. SORT - `sortn.py`
 3. DenseNET - `densenet_model.json`
 
-### Click here to test Model A: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1InGYCg_SEosqumijaGyWzC9VoLPm5ZEx#scrollTo=DGgcEDqHNyUl&forceEdit=true&sandboxMode=true)
+### Click here to test Model A: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1InGYCg_SEosqumijaGyWzC9VoLPm5ZEx?usp=sharing)
 
 ## Model B
 ![model B](./images/modelB.png)
@@ -55,7 +55,7 @@ Model A uses the following components:
 2. DeepSORT - `./deep_sort`
 3. DenseNET - `densenet_model.json`
 
-### Click here to test Model B: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/19YmKS3KZvl86tDN4CWDEZ7lPWjFWWrQQ#scrollTo=SU6qWoWr1QpP&forceEdit=true&sandboxMode=true)
+### Click here to test Model B: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/19YmKS3KZvl86tDN4CWDEZ7lPWjFWWrQQ?usp=sharing)
 
 ## Model C
 ![model C](./images/modelC.png)
@@ -65,7 +65,7 @@ Model A uses the following components:
 3. Skeleton - `./tf-pose-estimation`
 4. DenseNET - `densenet_model.json`
 
-### Click here to test Model C: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1d8PEeSdVlP0JogKwkytvFeyXXPu_qfXg#scrollTo=RTcTFn5gWPGb&forceEdit=true&sandboxMode=true)
+### Click here to test Model C: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1d8PEeSdVlP0JogKwkytvFeyXXPu_qfXg?usp=sharing)
 
 ## Model D
 ![model D](./images/modelD.png)
@@ -75,4 +75,4 @@ Model A uses the following components:
 3. Skeleton - `./tf-pose-estimation`
 4. DenseNET - `densenet_model.json`
 
-### Click here to test Model D: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1zBR_MaibETkvZWhUiWrnwhQbmJRnko9j#scrollTo=DsuZt3UXTH_x&forceEdit=true&sandboxMode=true)
+### Click here to test Model D: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1zBR_MaibETkvZWhUiWrnwhQbmJRnko9j?usp=sharing)
