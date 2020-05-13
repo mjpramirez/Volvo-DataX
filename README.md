@@ -1,4 +1,4 @@
-# An End-to-end System for Pedestrian Intention Detection using Bounding Box and Skeletal Features
+# Unified Framework for Pedestrian Detection & Intention Classification 
 
 Collaborative research project between Volvo Cars USA & Sweden, UC Berkeley, and Chalmers University.
 
@@ -21,7 +21,7 @@ For more detailed information about each model and the different components, cli
 
 # Running the code
 The code was developed and run on Google Colab (online iPython notebooks). Each model has its own Colab notebook. Follow each of the steps to configure and run the notebooks.
-1. Click on the appropriate model Colab button you wish to run. This will open a Colab notebook in your browswer.
+1. Click on the appropriate model's Colab button you wish to run. This will open a Colab notebook in your browswer.
 2. Ensure that you are in playground mode if you cannot edit the notebook. The following steps are included in each colab notebook but are repeated here as well.
 3. Connect runtime to GPU for better/faster results. (Runtime --> Change runtime type --> GPU)
 4. Clone the repository in a notebook cell.
@@ -43,36 +43,36 @@ The code was developed and run on Google Colab (online iPython notebooks). Each 
 ![model A](./images/modelA.png)
 Model A uses the following components:
 1. YOLO - `./yolov3_tf2`
-2. SORT - `SORT`
-3. DenseNET - `INSERT HERE`
+2. SORT - `sortn.py`
+3. DenseNET - `densenet_model.json`
 
-### Click here to test Model A: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1InGYCg_SEosqumijaGyWzC9VoLPm5ZEx#scrollTo=DGgcEDqHNyUl&forceEdit=true&sandboxMode=true)
+### Click here to test Model A: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1InGYCg_SEosqumijaGyWzC9VoLPm5ZEx?usp=sharing)
 
 ## Model B
 ![model B](./images/modelB.png)
 Model A uses the following components:
 1. YOLO - `./yolov3_tf2`
-2. DeepSORT - `./ds`
-3. DenseNET - `INSERT HERE`
+2. DeepSORT - `./deep_sort`
+3. DenseNET - `densenet_model.json`
 
-### Click here to test Model B: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/19YmKS3KZvl86tDN4CWDEZ7lPWjFWWrQQ#scrollTo=SU6qWoWr1QpP&forceEdit=true&sandboxMode=true)
+### Click here to test Model B: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/19YmKS3KZvl86tDN4CWDEZ7lPWjFWWrQQ?usp=sharing)
 
 ## Model C
 ![model C](./images/modelC.png)
 Model A uses the following components:
 1. YOLO - `./yolov3_tf2`
-2. SORT - `./ds`
-3. Skeleton - `INSERT HERE`
-4. DenseNET - `INSERT HERE`
+2. SORT - `sortn.py`
+3. Skeleton - `./tf-pose-estimation`
+4. DenseNET - `densenet_model.json`
 
-### Click here to test Model C: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1d8PEeSdVlP0JogKwkytvFeyXXPu_qfXg#scrollTo=RTcTFn5gWPGb&forceEdit=true&sandboxMode=true)
+### Click here to test Model C: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1d8PEeSdVlP0JogKwkytvFeyXXPu_qfXg?usp=sharing)
 
 ## Model D
 ![model D](./images/modelD.png)
 Model A uses the following components:
 1. YOLO - `./yolov3_tf2`
-2. SORT - `./ds`
-3. Skeleton - `INSERT HERE`
-4. DenseNET - `INSERT HERE`
+2. DeepSORT - `./deep_sort`
+3. Skeleton - `./tf-pose-estimation`
+4. DenseNET - `densenet_model.json`
 
-### Click here to test Model D: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1InGYCg_SEosqumijaGyWzC9VoLPm5ZEx?usp=sharing)
+### Click here to test Model D: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1zBR_MaibETkvZWhUiWrnwhQbmJRnko9j?usp=sharing)
