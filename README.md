@@ -4,6 +4,12 @@ Collaborative research project between Volvo Cars USA & Sweden, UC Berkeley, and
 
 Team: Rajarathnam Balakrishnan, Francesco Piccoli, Maria Jesus Perez, Moraldeepsingh Sachdeo, Carlos Nuñez, Matthew Tang
 
+<center>
+<img src="./images/modelC1.gif" width="400px"/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="./images/modelC2.gif" width="400px"/>
+</center>
+
 ## Model Components
 Our project involved building an integrated end-to-end system for pedestrian intent detection. A subset of the components are used for each model.
 * **YOLOv3** -> Object detector: Responsible for identifying and detecting objects of interest in a given frame or image.
@@ -24,7 +30,7 @@ The code was developed and run on Google Colab (online iPython notebooks). Each 
 ```
 !git clone https://github.com/mjpramirez/Volvo-DataX
 ```
-5. Install dependencies
+5. Install dependencies in a notebook cell.
 ```
 %cd Volvo-DataX/tf-pose-estimation
 ! pip3 install -r requirements.txt
@@ -42,10 +48,33 @@ Model A uses the following components:
 2. SORT - `SORT`
 3. DenseNET - `INSERT HERE`
 
-## Click here to test Model A: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1InGYCg_SEosqumijaGyWzC9VoLPm5ZEx#scrollTo=DGgcEDqHNyUl&forceEdit=true&sandboxMode=true)
+### Click here to test Model A: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1InGYCg_SEosqumijaGyWzC9VoLPm5ZEx#scrollTo=DGgcEDqHNyUl&forceEdit=true&sandboxMode=true)
 
-## Click here to test Model B: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/19YmKS3KZvl86tDN4CWDEZ7lPWjFWWrQQ#scrollTo=SU6qWoWr1QpP&forceEdit=true&sandboxMode=true)
+## Model B
+![model B](./images/modelB.png)
+Model A uses the following components:
+1. YOLO - `./yolov3_tf2`
+2. DeepSORT - `./ds`
+3. DenseNET - `INSERT HERE`
 
-## Click here to test Model C: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1d8PEeSdVlP0JogKwkytvFeyXXPu_qfXg#scrollTo=RTcTFn5gWPGb&forceEdit=true&sandboxMode=true)
+### Click here to test Model B: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/19YmKS3KZvl86tDN4CWDEZ7lPWjFWWrQQ#scrollTo=SU6qWoWr1QpP&forceEdit=true&sandboxMode=true)
 
-## Click here to test Model D: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1InGYCg_SEosqumijaGyWzC9VoLPm5ZEx?usp=sharing)
+## Model C
+![model C](./images/modelC.png)
+Model A uses the following components:
+1. YOLO - `./yolov3_tf2`
+2. SORT - `./ds`
+3. Skeleton - `INSERT HERE`
+4. DenseNET - `INSERT HERE`
+
+### Click here to test Model C: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1d8PEeSdVlP0JogKwkytvFeyXXPu_qfXg#scrollTo=RTcTFn5gWPGb&forceEdit=true&sandboxMode=true)
+
+## Model D
+![model D](./images/modelD.png)
+Model A uses the following components:
+1. YOLO - `./yolov3_tf2`
+2. SORT - `./ds`
+3. Skeleton - `INSERT HERE`
+4. DenseNET - `INSERT HERE`
+
+### Click here to test Model D: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1InGYCg_SEosqumijaGyWzC9VoLPm5ZEx?usp=sharing)
