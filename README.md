@@ -19,6 +19,12 @@ Our project involved building an integrated end-to-end system for pedestrian int
 ## Visualizations
 For more detailed information about each model and the different components, click [here](https://matthew29tang.github.io/pid-model/) to see the website (made with ReactJS and MaterialUI). Click [here](https://github.com/matthew29tang/pid-model) for the website source code.
 
+<p align='center'>
+<a href='https://matthew29tang.github.io/pid-model/#/'>
+<img src="images/website.JPG?raw=true" width="500px"/>
+</a>
+</p>
+
 ## Repo contents
 * `/checkpoints` - Folder useful to hold weights and checkpoints
 * `/data` - Consists file for class name
