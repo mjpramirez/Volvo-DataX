@@ -104,3 +104,19 @@ Model A uses the following components:
 4. DenseNET - `densenet_model.json`
 
 ### Click here to test Model D: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1zBR_MaibETkvZWhUiWrnwhQbmJRnko9j?usp=sharing)
+
+
+## GitHub repos adapted for our project
+```
+For this project, we adapted codes for each components from other GitHub repos as mentioned below:
+
+The codes for YOLOv3 was adapted from the GitHub repo: https://github.com/zzh8829/yolov3-tf2
+
+The codes for SORT was adapted from the GitHub repo: https://github.com/abewley/sort
+
+The codes for DeepSORT was adapted from the GitHub repo: https://github.com/nwojke/deep_sort
+
+The codes for Skeleton FittingTF-PoseEstimator was adapted from the GitHub repo: https://github.com/ildoonet/tf-pose-estimation
+
+The codes for ST-DenseNet was adapted from the GitHub repo: https://github.com/GalDude33/DenseNetFCN-3D
+```
