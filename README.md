@@ -5,8 +5,6 @@ Collaborative research project between Volvo Cars USA & Sweden, UC Berkeley, and
 Team: Rajarathnam Balakrishnan, Francesco Piccoli, Maria Jesus Perez, Moraldeepsingh Sachdeo, Carlos Nuñez, Matthew Tang
 
 <center>
-<img src="./images/modelC1.gif" width="400px"/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="./images/modelC2.gif" width="400px"/>
 </center>
 
