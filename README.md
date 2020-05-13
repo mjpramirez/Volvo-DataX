@@ -75,4 +75,4 @@ Model A uses the following components:
 3. Skeleton - `INSERT HERE`
 4. DenseNET - `INSERT HERE`
 
-### Click here to test Model D: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1InGYCg_SEosqumijaGyWzC9VoLPm5ZEx?usp=sharing)
+### Click here to test Model D: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1zBR_MaibETkvZWhUiWrnwhQbmJRnko9j#scrollTo=DsuZt3UXTH_x&forceEdit=true&sandboxMode=true)
