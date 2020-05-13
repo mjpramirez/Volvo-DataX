@@ -20,27 +20,25 @@ Our project involved building an integrated end-to-end system for pedestrian int
 For more detailed information about each model and the different components, click [here](https://matthew29tang.github.io/pid-model/) to see the website (made with ReactJS and MaterialUI). Click [here](https://github.com/matthew29tang/pid-model) for the website source code.
 
 ## Repo contents
-* `/checkpoints` - 
-* `/data` - 
+* `/checkpoints` - Folder useful to hold weights and checkpoints
+* `/data` - Consists file for class name
 * `/deep_sort` - DeepSORT algorithm 
 * `/images` - Images and GIFS for the README
-* `/SORT` - 
+* `/SORT` - Additional file for SORT
 * `/tf-pose-estimation` - Skeleton fitting algorithm files
 * `/yolov3_tf2` - Yolov3 algorithm files
-* `/yolov3_tf2.egg-info` - 
+* `/yolov3_tf2.egg-info` - Yolov3 additional files
 * `.gitignore` - Ignore misc files like .DS_Store
-* `densenet_1.hdf5` - 
-* `densenet_2.hdf5` - 
-* `densenet_model.json` - 
+* `densenet_1.hdf5` - Weights for ST-DenseNet that uses original images
+* `densenet_2.hdf5` - Weights for ST-DenseNet that uses skeleton imposed images
+* `densenet_model.json` - Saved ST-DenseNet Model file in json format
 * `LICENSE` - MIT License for this repo
-* `mars-small128.pb` - 
+* `mars-small128.pb` - Protocol buffer weight file for DeepSORT
 * `Model A.ipynb` - Google colab file for Model A demo
 * `Model B.ipynb` - Google colab file for Model B demo
 * `Model C.ipynb` - Google colab file for Model C demo
 * `Model D.ipynb` - Google colab file for Model D demo
 * `README.md` - Instructions on how to use this repo
-* `requirements-gpu.txt` - 
-* `requirements_ngpu.txt` - 
 * `sortn.py` - SORT algorithm
 
 # Running the code
