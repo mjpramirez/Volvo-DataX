@@ -2,11 +2,11 @@
 
 Collaborative research project between Volvo Cars USA & Sweden, UC Berkeley, and Chalmers University.
 
-Team: Rajarathnam Balakrishnan, Francesco Piccoli, Maria Jesus Perez, Moraldeepsingh Sachdeo, Carlos Nuñez, Matthew Tang
+Team: [Rajarathnam Balakrishnan](https://www.linkedin.com/in/rajarathnam-balakrishnan-7b447b135/), [Francesco Piccoli](https://www.linkedin.com/in/francesco-piccoli/), [Maria Jesus Perez](https://www.linkedin.com/in/maria-jesus-perez-brown/), [Moraldeepsingh Sachdeo](https://www.linkedin.com/in/moraldeepsingh/), [Carlos Nuñez](https://www.linkedin.com/in/carlosnunezcardenas/), [Matthew Tang](https://www.linkedin.com/in/matthewgtang/)
 
-<center>
-<img src="./images/modelC2.gif" width="400px"/>
-</center>
+<p align='center'>
+    <img src="./images/modelC2.gif" width="400px"/>
+</p>
 
 ## Model Components
 Our project involved building an integrated end-to-end system for pedestrian intent detection. A subset of the components are used for each model.
@@ -45,7 +45,7 @@ For more detailed information about each model and the different components, cli
 
 # Running the code
 The code was developed and run on Google Colab (online iPython notebooks). Each model has its own Colab notebook. Follow each of the steps to configure and run the notebooks.
-1. Click on the appropriate model's Colab button you wish to run. This will open a Colab notebook in your browswer.
+1. Click on the appropriate model's Colab button you wish to run. This will open a Colab notebook in your browser.
 2. Ensure that you are in playground mode if you cannot edit the notebook. The following steps are included in each colab notebook but are repeated here as well.
 3. Connect runtime to GPU for better/faster results. (Runtime --> Change runtime type --> GPU)
 4. Clone the repository in a notebook cell.
