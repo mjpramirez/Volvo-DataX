@@ -19,6 +19,30 @@ Our project involved building an integrated end-to-end system for pedestrian int
 ## Visualizations
 For more detailed information about each model and the different components, click [here](https://matthew29tang.github.io/pid-model/) to see the website (made with ReactJS and MaterialUI). Click [here](https://github.com/matthew29tang/pid-model) for the website source code.
 
+## Repo contents
+* `/checkpoints` - 
+* `/data` - 
+* `/deep_sort` - DeepSORT algorithm 
+* `/images` - Images and GIFS for the README
+* `/SORT` - 
+* `/tf-pose-estimation` - Skeleton fitting algorithm files
+* `/yolov3_tf2` - Yolov3 algorithm files
+* `/yolov3_tf2.egg-info` - 
+* `.gitignore` - Ignore misc files like .DS_Store
+* `densenet_1.hdf5` - 
+* `densenet_2.hdf5` - 
+* `densenet_model.json` - 
+* `LICENSE` - MIT License for this repo
+* `mars-small128.pb` - 
+* `Model A.ipynb` - Google colab file for Model A demo
+* `Model B.ipynb` - Google colab file for Model B demo
+* `Model C.ipynb` - Google colab file for Model C demo
+* `Model D.ipynb` - Google colab file for Model D demo
+* `README.md` - Instructions on how to use this repo
+* `requirements-gpu.txt` - 
+* `requirements_ngpu.txt` - 
+* `sortn.py` - SORT algorithm
+
 # Running the code
 The code was developed and run on Google Colab (online iPython notebooks). Each model has its own Colab notebook. Follow each of the steps to configure and run the notebooks.
 1. Click on the appropriate model's Colab button you wish to run. This will open a Colab notebook in your browswer.
